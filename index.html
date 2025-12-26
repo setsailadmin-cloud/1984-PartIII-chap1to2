@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1984 - Part III: Chapters 1 & 2 Study Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .collapsible-content {
+            display: none;
+            transition: all 0.3s ease-out;
+        }
+        .active {
+            display: block;
+        }
+        .reveal-btn {
+            background-color: #f3f4f6;
+            border: 1px solid #d1d5db;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            font-weight: 600;
+            color: #374151;
+            margin-top: 10px;
+        }
+        .reveal-btn:hover {
+            background-color: #e5e7eb;
+        }
+        .answer-box {
+            display: none;
+            background-color: #f9fafb;
+            border-left: 4px solid #3b82f6;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 0 6px 6px 0;
+            color: #1f2937;
+        }
+        .section-header {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            margin-bottom: 2rem;
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-2">1984 Part III: Chapters I & II</h1>
+            <p class="text-xl text-gray-600">Interrogation, Torture, and the Nature of Truth</p>
+        </header>
+
+        <!-- Section: Critical Thinking -->
+        <div class="card">
+            <div class="section-header bg-indigo-700 text-white p-4" onclick="toggleSection('critical-thinking')">
+                <h2 class="text-xl font-bold">🧠 Critical Thinking & Plot Analysis</h2>
+                <span id="icon-critical-thinking">▼</span>
+            </div>
+            <div id="critical-thinking" class="p-6 space-y-8">
+                
+                <div>
+                    <h3 class="font-bold text-lg">1. How does the Ministry of Love contrast with its name, and what does this reveal about Ingsoc's power?</h3>
+                    <p class="text-sm text-gray-500 italic">Chapter I</p>
+                    <button class="reveal-btn" onclick="toggleAnswer('q1')">Reveal Answer</button>
+                    <div id="q1" class="answer-box">
+                        The Ministry of Love is a windowless fortress of fear, characterized by high-voltage lights and hidden microphones. There is no love here, only the systematic breaking of the human spirit. The name is a classic example of Newspeak: it is called "Love" because it forces people to love Big Brother through pain and psychological conditioning.
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-lg">2. What is the difference between the "ordinary" prisoners and the "political" prisoners in the holding cell?</h3>
+                    <p class="text-sm text-gray-500 italic">Chapter I</p>
+                    <button class="reveal-btn" onclick="toggleAnswer('q2')">Reveal Answer</button>
+                    <div id="q2" class="answer-box">
+                        Ordinary criminals (prole prisoners) are loud, defiant, and even friendly with the guards, often trading items. They seem to have a sense of camaraderie. Political prisoners (Party members), however, are terrified, silent, and ostracized. This shows that the Party views intellectual dissent as a far greater threat than physical crime.
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-lg">3. Why is Ampleforth in the Ministry of Love, and why does he consider himself a thought-criminal?</h3>
+                    <p class="text-sm text-gray-00 italic">Chapter I</p>
+                    <button class="reveal-btn" onclick="toggleAnswer('q3')">Reveal Answer</button>
+                    <div id="q3" class="answer-box">
+                        Ampleforth was arrested for leaving the word "God" in a poem. He claims there was simply no other rhyme for "rod," and since the word "God" exists, it was a technical necessity. His crime is an intellectual "unorthodoxy"—refusing to prioritize Party dogma over the integrity of language.
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="font-bold text-lg">4. According to O'Brien, why does the Party bring people to the Ministry of Love?</h3>
+                    <p class="text-sm text-gray-500 italic">Chapter II</p>
+                    <button class="reveal-btn" onclick="toggleAnswer('q4')">Reveal Answer</button>
+                    <div id="q4" class="answer-box">
+                        O'Brien explains that they do not destroy the enemy to punish them; they destroy them to *cure* them. The Party is not interested in negative obedience or making martyrs. They want to capture the inner mind and reshape it until the prisoner genuinely believes that 2+2=5. They kill the individual only after the individual has "converted" to the Party's truth.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Section: Literary Term: Paradox -->
+        <div class="card border-l-8 border-l-red-600">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-red-700 mb-4">📖 Literary Concept: Paradox</h2>
+                <div class="bg-red-50 p-4 rounded-lg mb-6">
+                    <p class="font-semibold">Definition:</p>
+                    <p class="text-gray-800 italic">A paradox is a statement or situation that seems self-contradictory or absurd but in reality expresses a possible truth. In Ingsoc, paradoxes are used to control reality and destroy logic.</p>
+                </div>
+
+                <h3 class="font-bold text-lg mb-4 text-gray-700">Application in Chapters 1 & 2:</h3>
+                
+                <div class="space-y-4">
+                    <div class="bg-white p-4 border border-gray-200 rounded-lg">
+                        <p class="font-bold">Example 1: The Healing Torture</p>
+                        <p class="text-gray-700 mt-2">O'Brien tells Winston, "We are not interested in the stupid crimes that you have committed... We are only interested in the thought. We do not merely destroy our enemies, we change them."</p>
+                        <p class="text-sm text-indigo-600 mt-2"><strong>Analysis:</strong> The paradox lies in the idea of "healing" through torture. The Party believes that by inflicting maximum pain, they are performing an act of "love" or "redemption" by bringing the prisoner back into the fold of sanity (as defined by the Party).</p>
+                    </div>
+
+                    <div class="bg-white p-4 border border-gray-200 rounded-lg">
+                        <p class="font-bold">Example 2: Truth is Subjective but Absolute</p>
+                        <p class="text-gray-700 mt-2">Winston is told that the past does not exist except in memory and records, which the Party controls. Therefore, if the Party says 2+2=5, it *is* 5.</p>
+                        <p class="text-sm text-indigo-600 mt-2"><strong>Analysis:</strong> It is paradoxical that truth is both whatever the Party says it is (subjective) and yet presented as an absolute reality that the prisoner must "discover" through agony.</p>
+                    </div>
+
+                    <div class="bg-white p-4 border border-gray-200 rounded-lg">
+                        <p class="font-bold">Example 3: "God is Power"</p>
+                        <p class="text-gray-700 mt-2">O'Brien asserts that the individual is only powerful when he ceases to be an individual and merges with the Party.</p>
+                        <p class="text-sm text-indigo-600 mt-2"><strong>Analysis:</strong> The paradox here is that one gains "power" only by surrendering all personal agency and becoming a powerless extension of a collective machine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleSection(id) {
+            const section = document.getElementById(id);
+            const icon = document.getElementById('icon-' + id);
+            if (section.style.display === "block") {
+                section.style.display = "none";
+                icon.innerText = "▼";
+            } else {
+                section.style.display = "block";
+                icon.innerText = "▲";
+            }
+        }
+
+        function toggleAnswer(id) {
+            const answer = document.getElementById(id);
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+            } else {
+                answer.style.display = "block";
+            }
+        }
+
+        // Initialize sections
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('critical-thinking').style.display = "block";
+        });
+    </script>
+</body>
+</html>
